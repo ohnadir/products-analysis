@@ -40,13 +40,19 @@ const MyBarChart = () => {
         }
     ];
     return (
-        <BarChart width={400} height={400} data={data}>
-            <Bar dataKey={'investment'}></Bar>
-            <Bar dataKey={'sell'}></Bar>
-            <XAxis dataKey={'month'}></XAxis>
-            <Tooltip></Tooltip>
-            <YAxis dataKey={'investment'}></YAxis>
-        </BarChart>
+
+            <BarChart
+                width={400}
+                height={400}
+                data={data}>
+                <XAxis dataKey="month"></XAxis>
+                <YAxis dataKey='investment'></YAxis>
+                <Tooltip></Tooltip>
+            
+                <Bar dataKey={'investment'} fill="#8884d8"></Bar>
+                <Bar dataKey={'sell'} fill="#82ca9d"></Bar>
+                <Bar dataKey={'revenue'} fill="#ffc658"></Bar>
+            </BarChart>
     )
 };
 

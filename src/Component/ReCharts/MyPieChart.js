@@ -41,7 +41,7 @@ const MyPieChart = () => {
         }
     ];
     return (
-        <PieChart width={800} height={400}>
+        <PieChart width={400} height={400}>
             <Pie
                 data={data}
                 dataKey="investment"
@@ -54,18 +54,9 @@ const MyPieChart = () => {
                 dataKey="revenue"
                 cx="50%"
                 cy="50%"
-                innerRadius={100}
-                outerRadius={110}
-                fill="#82ca9d" label></Pie>
-            
-            <Pie
-                data={data}
-                dataKey="sell"
-                cx="50%"
-                cy="50%"
                 innerRadius={70}
                 outerRadius={90}
-                fill="#00c49f" label></Pie>
+                fill="#82ca9d" label></Pie>
             <Tooltip></Tooltip>
         </PieChart>
     )
