@@ -5,7 +5,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 const Reviews = (props) => {
     const { name, img, rating, review } = props.reviews;
     return (
-        <div className=' shadow-xl border mb-5 p-3 max-w-5xl mx-auto mt-12'>
+        <div className=' shadow-xl border mb-5 p-3 max-w-5xl mx-auto mt-16'>
             <div className='flex gap-3 mb-3'>
                 <img className='w-[50px] h-[50px] rounded-xl' src={img} alt="" />
                 <div>
