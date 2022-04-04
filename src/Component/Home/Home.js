@@ -18,8 +18,9 @@ const Home = () => {
         <div className=' bg-slate-100 h-full'>
             <div className='flex flex-col-reverse md:flex-row gap-8 max-w-6xl mx-auto p-4 items-center py-20'>
                 <div>
-                    <p className='text-orange-500 mb-4 text-2xl'>Welcome to MakeUp Review Zone</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, error suscipit doloribus molestiae iure eius amet architecto. Vel ex eius aspernatur commodi a voluptates molestiae </p>
+                    <p className='text-orange-500 mb-4 text-2xl'>Welcome to EyeLiner Review Zone</p>
+                    <p>Pass you valuable compliments </p>
+                    <p>Long lasting, shocking color intensity infused with Kohl Britannia. High intensity color for an instant impact that is ultra smooth. Creamy formula that glides on easily and is waterproof, smudge-proof, sweat-proof, heat-proof, humidity-proof and scandal-proof.</p>
                     <button className='text-white bg-cyan-600 px-3 py-1 rounded mt-6 '>Live Demo</button>
                 </div>
                 <div>
