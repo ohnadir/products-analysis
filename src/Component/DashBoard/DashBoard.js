@@ -5,9 +5,8 @@ import MyLineChart from '../ReCharts/MyLineChart';
 import MyPieChart from '../ReCharts/MyPieChart';
 const DashBoard = () => {
     return (
-        <div className='max-w-5xl mx-auto mt-16'>
+        <div className='max-w-5xl mx-auto mt-16 mb-10'>
             <div className='flex flex-col md:flex-row mx-auto justify-center items-center gap-8'>
-                
                 <MyLineChart></MyLineChart>
                 <MyAreaChart></MyAreaChart>
             </div>

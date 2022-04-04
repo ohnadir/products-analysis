@@ -41,7 +41,9 @@ const MyBarChart = () => {
     ];
     return (
 
-            <BarChart
+        <div>
+            <p className='text-center mb-5 font-bold text-sky-500 text-xl'>Investment VS Revenue</p>
+             <BarChart
                 width={400}
                 height={400}
                 data={data}>
@@ -53,6 +55,7 @@ const MyBarChart = () => {
                 <Bar dataKey={'sell'} fill="#82ca9d"></Bar>
                 <Bar dataKey={'revenue'} fill="#ffc658"></Bar>
             </BarChart>
+        </div>
     )
 };
 

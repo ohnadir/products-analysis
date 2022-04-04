@@ -42,7 +42,9 @@ const data = [
 ];
 
     return (
-        <AreaChart
+        <div>
+            <p className='text-center mb-5 font-bold text-sky-500 text-xl'>Investment VS Revenu</p>
+            <AreaChart
             width={400}
             height={400}
             data={data}
@@ -54,6 +56,7 @@ const data = [
             <Area type="monotone" dataKey="sell" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
             <Area type="monotone" dataKey="revenue" stackId="1" stroke="#ffc658" fill="#ffc658" />
         </AreaChart>
+        </div>
     )
 };
 

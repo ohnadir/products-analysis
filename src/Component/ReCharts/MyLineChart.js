@@ -42,7 +42,9 @@ const MyLineChart = () => {
         }
     ];
     return (
-        <LineChart width={400} height={400} data={data}>
+        <div>
+            <p className='text-center mb-5 font-bold text-sky-500 text-xl'>Month Wise Sell</p>
+            <LineChart width={400} height={400} data={data}>
             <Line dataKey={'investment'}></Line>
             <Line dataKey={'sell'}></Line>
             <XAxis dataKey="month"></XAxis>
@@ -50,6 +52,7 @@ const MyLineChart = () => {
             <YAxis dataKey="investment"></YAxis>
 
         </LineChart>
+        </div>
     );
 };
 
