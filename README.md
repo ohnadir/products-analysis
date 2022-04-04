@@ -3,9 +3,9 @@
 This project was bootstrapped with [EyeLiner Review Zone](https://quiet-baklava-e74b61.netlify.app/).
 
 
-* You can see a review of EyeLiner. 
-* In the Top of home page review 3 customers reviews 
-* In the Reviews Route describe all customers reviews one by one 
+* You can see a review of EyeLiner site. 
+* In the Bottom of home page review 3 customers reviews .
+* In the Reviews Route describe all customers reviews one by one .
 * Last of this project you can see some of react ReChart on DashBoard Route . 
  
 
