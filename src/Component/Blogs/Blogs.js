@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='max-w-5xl mx-auto mt-16' >
+        <div className='max-w-5xl mx-auto mt-16 mb-16' >
             <div className='flex flex-col justify-center gap-8'>
                 <div className='mx-auto border p-4 '>
                     <h1 className='text-xl mb-4 text-orange-600'>কনটেক্সট এপিআই কি ?</h1>
